@@ -68,11 +68,11 @@ add_slashes($maVariable)
 
 ## Sources
 
-https://www.owasp.org/index.php/SQL_Injection
-https://www.owasp.org/index.php/Blind_SQL_Injection
-https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
-https://medium.com/howtosecurity/what-is-sql-injection-9872503f3c2d
-https://hydrasky.com/network-security/error-based-sql-injection-attack/
-https://openclassrooms.com/fr/courses/1959476-administrez-vos-bases-de-donnees-avec-mysql/1971264-requetes-preparees
-https://www.php.net/manual/fr/pdo.prepared-statements.php
-https://www.hacksplaining.com/prevention/sql-injection
+* https://www.owasp.org/index.php/SQL_Injection
+* https://www.owasp.org/index.php/Blind_SQL_Injection
+* https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
+* https://medium.com/howtosecurity/what-is-sql-injection-9872503f3c2d
+* https://hydrasky.com/network-security/error-based-sql-injection-attack/
+* https://openclassrooms.com/fr/courses/1959476-administrez-vos-bases-de-donnees-avec-mysql/1971264-requetes-preparees
+* https://www.php.net/manual/fr/pdo.prepared-statements.php
+* https://www.hacksplaining.com/prevention/sql-injection
