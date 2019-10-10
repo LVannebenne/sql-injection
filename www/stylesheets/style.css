@@ -102,5 +102,21 @@ h5 {
     display:flex;
 }
 
+.cell, .head-cell {
+    padding: 10px;
+    width: 30%;
+}
+
+.head-cell {
+    background-color: rgb(8, 26, 36);
+}
+
+.center-screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 

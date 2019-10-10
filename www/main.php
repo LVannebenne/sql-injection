@@ -17,9 +17,9 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
             </div>
             <?php
         }
-        echo "<h4>\$_POST <> Result DB </h4>";
-        echo "<b>Username</b><br />".$_POST["username"]." <> ".$result["username"]."<br />";
-        echo "<b>Password</b><br />".$_POST["password"]." <> ".$result["password"]."<br />";
+        echo "<h4>Ce qui est posté <> Resultat DB </h4>";
+        echo "<b>Username</b><br /><span class='red'>".$_POST["username"]."</span> <> ".$result["username"]."<br />";
+        echo "<b>Password</b><br /><span class='red'>".$_POST["password"]."</span> <> ".$result["password"]."<br />";
     } catch (PDOException $e) {
         print "Erreur! : " . $e->getMessage() . "<br />";
         die();
