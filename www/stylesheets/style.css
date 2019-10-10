@@ -1,0 +1,106 @@
+body {
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgb(16, 101, 107), rgb(8, 26, 36));
+    background-color: rgb(18, 114, 66);
+    background-attachment: fixed;
+    color: white;
+    font-size: 150%;
+}
+
+.navbar {
+    font-size: 80%;
+}
+
+.container-fluid {
+    margin-top: 40px;
+    padding: 0 60px;
+}
+
+.container-fluid img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.form-login {
+    width: 50%;
+    margin: auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.arrows {
+    background-color : transparent;
+    color: #FFF;
+    border: 0;
+    font-size: 4rem;
+}
+
+.card-body p {
+    color: rgb(18, 114, 66);
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+blockquote {
+    font-size: 1.5rem;
+    color: black;
+    padding: 10px;
+    border: 0.1rem solid #999;
+    border-radius: 5px;
+    margin: 15px;
+    margin-top: 0;
+}
+
+.red {
+    color:red;
+    font-weight: 700;
+}
+
+h5 {
+    text-decoration: none;
+    color: rgb(18, 114, 66);
+    font-weight: 700;
+}
+
+.accordion {
+    margin-bottom: 100px;
+}
+
+.source-link {
+    color: turquoise;
+    text-decoration: none;
+}
+
+.source-link:hover {
+    color: white;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display:flex;
+}
+
+
+
