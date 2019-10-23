@@ -53,15 +53,12 @@
                 
         }
     
-    require dirname(__FILE__) . DIRECTORY_SEPARATOR . 'connectDB.php';
+    //require dirname(__FILE__) . DIRECTORY_SEPARATOR . 'connectDB.php';
     require dirname(__FILE__) . DIRECTORY_SEPARATOR . 'header.php';
     echo "<div class='container-fluid'>";
     require dirname(__FILE__) . DIRECTORY_SEPARATOR . $page;
     echo "</div>";
     require dirname(__FILE__) . DIRECTORY_SEPARATOR . 'footer.php';
-
-   
-
     ?>
     
 </body>
