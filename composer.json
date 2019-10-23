@@ -1,0 +1,13 @@
+{
+    "name": "lvannebenne/sql-injection",
+    "description": "Technological watch about SQL injections",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LVannebenne",
+            "email": "lindsay.vannebenne@gmail.com"
+        }
+    ],
+    "require": {}
+}
