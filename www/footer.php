@@ -8,7 +8,7 @@
 </footer>
 
 <script>
-    let url = "http://localhost:8001/index.php?p="
+    let url = window.location.href+"index.php?p="
     let query = window.location.search;
     if (query.length >= 1) {
         query = query.substr(1)
